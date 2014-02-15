@@ -58,4 +58,4 @@ Responds with
 
 Looks a little like
 
-![](htmldiff-example.png?raw=true)
+![](htmldiff-example.png?raw=true =640x)
