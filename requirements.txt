@@ -9,3 +9,4 @@ httpie==0.8.0
 itsdangerous==0.23
 requests==2.2.1
 wsgiref==0.1.2
+markdown

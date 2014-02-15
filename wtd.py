@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 from flask import Flask
-from flask import request
 from flask import abort
+from flask import request
+from flask import render_template
+from flask import Markup
 
+import markdown
 from htmldiff import htmldiff
 
 app = Flask(__name__)
@@ -10,7 +13,10 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    return 'Hello World!'
+    with open('README.md', 'r') as f:
+        content = f.read()
+
+    return render_template('base.html', content=Markup(markdown.markdown(content)))
 
 
 @app.route('/wtd', methods=['POST'])
