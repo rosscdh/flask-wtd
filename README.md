@@ -19,7 +19,7 @@ Running
 honcho start
 ```
 
-New terminal (or run previous with &)
+New terminal or you could run this using Postman (https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en) or similar
 
 ```
 http -f POST http://localhost:5000/wtd a=test2003 b=testing2020
