@@ -55,3 +55,7 @@ Responds with
     .tagDelete { background-color: #770000; color: #ffffff }
 
     --></style><span class="delete">test2003</span><span class="insert">testing2020</span>
+
+Looks a little like
+
+![](htmldiff-example.png?raw=true)
