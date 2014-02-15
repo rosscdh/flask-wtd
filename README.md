@@ -3,6 +3,10 @@ flask-wtd
 
 What the Diff version running in flask with honcho
 
+Post 2 html files and get the differences returned in a nice github prose style
+
+https://github.com/blog/1784-rendered-prose-diffs
+
 
 Install
 -------
