@@ -29,7 +29,7 @@ def wtd():
         abort(400)
 
 
-    diff = htmldiff.htmldiff(a, b, accurate_mode=True, addStylesheet=True)
+    diff = htmldiff.htmldiff(a, b, accurate_mode=False, addStylesheet=True)
     return diff
 
 
